@@ -19,6 +19,6 @@ resource "aws_instance" "servers" {
     tags {
         Name = "Terraform-Server-${count.index+1}"
         Env = "Prod"
-        Owner = "Sree"
+        Owner = "Ram"
     }
 }
